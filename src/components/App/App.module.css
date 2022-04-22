@@ -1,0 +1,99 @@
+body {
+  background-color: lightblue;
+}
+
+.conteiner {
+  margin-top: 20px;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  font-size: 20px;
+}
+.messconteiner {
+  max-width: 875px;
+  height: 600px;
+  background-color: #54a0ad;
+  margin-top: 50px;
+  font-size: 20px;
+  padding: 20px;
+  overflow: scroll;
+  border-radius: 5%;
+  word-wrap: break-word;
+}
+.inputText {
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  margin-right: 37px;
+}
+.inputNick {
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
+  margin-right: 37px;
+}
+.button {
+  width: 100px;
+  height: 40px;
+  padding-top: 0px;
+}
+.logo {
+  color: blue;
+  font-style: oblique;
+}
+p {
+  font-size: 20px;
+  padding: 0px;
+}
+.error {
+  font-size: 20px;
+  color: crimson;
+}
+@media only screen and (max-width: 2000px) {
+  .inputText {
+    width: 38%;
+    height: 40px;
+    font-size: 20px;
+    margin-right: 0vw;
+  }
+  .inputNick {
+    height: 40px;
+    width: 15vw;
+    font-size: 20px;
+    margin-left: 0;
+  }
+  .button {
+    width: 100px;
+    height: 40px;
+    padding-top: 0px;
+    margin-left: 2vw;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .conteiner {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  form {
+    text-align: center;
+  }
+  .inputText {
+    width: 98%;
+    height: 40px;
+    font-size: 20px;
+    margin-right: 0;
+  }
+  .inputNick {
+    height: 40px;
+    width: 40%;
+    font-size: 20px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .button {
+    width: 100px;
+    height: 40px;
+    padding-top: 0px;
+    margin-left: 0;
+  }
+}
